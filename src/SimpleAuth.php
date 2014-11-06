@@ -24,6 +24,11 @@ class SimpleAuth
     private $ipList = [];
 
     /**
+     * @var array
+     */
+    private $auth = [];
+
+    /**
      * @var bool
      */
     private $fbCrawlerAllowed;
