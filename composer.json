@@ -1,0 +1,21 @@
+{
+    "name": "apploud/simpleauth",
+    "description": "Handles basic http authentication",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Stehlík",
+            "email": "stehlikpetr@msn.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Passwords.php",
+            "src/SimpleAuth.php"
+        ]
+    }
+}
